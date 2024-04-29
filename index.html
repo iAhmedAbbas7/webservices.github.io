@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WEB SERVICES</title>
+
+    <!-- Favicon Link -->
+    <link rel="icon" type="image/svg+xml" href="./assets/FAVICON.png" />
+
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Container-Fluid-Start -->
+
+    <div class="container-fluid">
+      <!-- Header -->
+
+      <div class="row justify-content-between" id="header">
+        <div class="col-auto" id="header-in-1">
+          <div class="text-center">
+            <i
+              class="bi bi-facebook pe-2"
+              id="F"
+              style="font-size: 15px; color: white"
+            ></i>
+            <i
+              class="bi bi-instagram pe-2"
+              id="I"
+              style="font-size: 15px; color: white"
+            ></i>
+            <i
+              class="bi bi-twitter pe-2"
+              id="T"
+              style="font-size: 15px; color: white"
+            ></i>
+            <i
+              class="bi bi-youtube pe-2"
+              id="Y"
+              style="font-size: 15px; color: white"
+            ></i>
+            <i
+              class="bi bi-snapchat pe-2"
+              id="S"
+              style="font-size: 15px; color: white"
+            ></i>
+            <i
+              class="bi bi-twitch"
+              id="W"
+              style="font-size: 15px; color: white"
+            ></i>
+          </div>
+        </div>
+
+        <div class="col-auto" id="header-in-2">
+          <div class="text-center">
+            <i class="bi bi-telephone-fill header-phone"></i>
+            <span class="me-3 text-white"> +1 (234) 567 8910 </span>
+            <i class="bi bi-telephone-fill header-phone"></i>
+            <span class="me-3 text-white"> +1 (234) 567 8910 </span>
+            <button class="btn" id="header-btn">CALL US</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Container-Fluid-End -->
+    </div>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg" id="navbar-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/LOGO.png"
+            alt=""
+            class="img-fluid"
+            style="width: 85px; height: 85px"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon bg-light"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse nav-list"
+          id="navbarSupportedContent"
+        >
+          <div id="u-list">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">WHY US</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROCESS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">REVIEWS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">OUR SKILLS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider -->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-dark"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/I1.jpg"
+            class="d-block w-100 img-fluid"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-lg-block">
+            <button type="button" id="slider-btn" class="btn">
+              LEARN MORE
+            </button>
+            <h3>LEARN HOW TO CODE</h3>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./assets/I2.jpg"
+            class="d-block w-100 img-fluid"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <button type="button" id="slider-btn" class="btn">
+              LEARN MORE
+            </button>
+            <h3>BUILD YOUR PROJECTS</h3>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./assets/I3.jpg"
+            class="d-block w-100 img-fluid"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <button type="button" id="slider-btn" class="btn">
+              LEARN MORE
+            </button>
+            <h3>ACHIEVE YOUR GOALS</h3>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Container-Fluid-Start -->
+
+    <div class="container-fluid">
+      <!-- Advantages -->
+
+      <div class="row justify-content-center" id="advant">
+        <div class="col-12 text-center">
+          <h1>OUR <span>ADVANTAGES</span></h1>
+          <p>
+            OUR MEMBERSHIP COMES WITH A NUMBER OF DIRECT & INDIRECT ADVANTAGES
+            THAT WILL HELP YOU GROW YOUR CAREER FASTER.
+          </p>
+          <div>
+            <a href="#"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly" id="advant-2">
+        <div class="col-md-2 sections">
+          <div class="rounded-circle icons-div">
+            <i class="bi bi-lightbulb-fill icons-fill"></i>
+          </div>
+          <div class="title-text">
+            <h5 class="text-center">INNOVATION</h5>
+            <p class="text-center">
+              THIS IS OUR PRIORITY. WITH OUR COMPANY YOU WILL BE ONE STEP AHEAD
+              IN EVERY PROJECT YOU START.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2 sections">
+          <div class="rounded-circle icons-div">
+            <i class="bi bi-hand-thumbs-up-fill icons-fill"></i>
+          </div>
+          <div class="title-text">
+            <h5 class="text-center">QUALITY</h5>
+            <p class="text-center">
+              THIS IS OUR PRIORITY. WITH OUR COMPANY YOU WILL BE ONE STEP AHEAD
+              IN EVERY PROJECT YOU START.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2 sections">
+          <div class="rounded-circle icons-div">
+            <i class="bi bi-clock-fill icons-fill"></i>
+          </div>
+          <div class="title-text">
+            <h5 class="text-center">EXPERIENCE</h5>
+            <p class="text-center">
+              THIS IS OUR PRIORITY. WITH OUR COMPANY YOU WILL BE ONE STEP AHEAD
+              IN EVERY PROJECT YOU START.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2 sections">
+          <div class="rounded-circle icons-div">
+            <i class="bi bi-people-fill icons-fill"></i>
+          </div>
+          <div class="title-text">
+            <h5 class="text-center">HAPPY CLIENTS</h5>
+            <p class="text-center">
+              THIS IS OUR PRIORITY. WITH OUR COMPANY YOU WILL BE ONE STEP AHEAD
+              IN EVERY PROJECT YOU START.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2 sections">
+          <div class="rounded-circle icons-div">
+            <i class="bi bi-chat-left-dots-fill icons-fill"></i>
+          </div>
+          <div class="title-text">
+            <h5 class="text-center">SUPPORT</h5>
+            <p class="text-center">
+              THIS IS OUR PRIORITY. WITH OUR COMPANY YOU WILL BE ONE STEP AHEAD
+              IN EVERY PROJECT YOU START.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Us -->
+
+      <div class="row justify-content-center" id="about">
+        <div class="col-12 text-center">
+          <h1>ABOUT <span>US</span></h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center" id="about-text-img">
+        <div class="col-lg-5" id="about-text">
+          <p>
+            OUR WEB DEVELOPMENT ORGANIZATION IS A CERTIFIED ONE AND IS RUN BY A
+            LARGE NUMBER OF PROFESSIONALS AROUND THE GLOBE. WE STARTED THIS
+            ORGANIZATION IN 2020 AND IS GOING FORWARD EVER SINCE.<br /><br />
+            THE WORLD IS DEVELOPING DAY BY DAY IN TERMS OF TECHNOLOGY AND NEW
+            INNOVATIONS AND IT IS IMPORTANT FOR EVERYONE TO KEEP UP WITH THIS
+            CHANGING WORLD, AS IT WILL BECOME ALMOST IMPOSSIBLE TO MATCH THE
+            PACE OF OTHER PEOPLE WITH CONVENTIONAL METHODS AND APPROACHES AS OF
+            NOW.<br /><br />
+            IN ORDER TO HELP PEOPLE TO ACHIEVE & ADAPT THESE MODERN FRAMEWORKS,
+            OUR WEB DEVELOPMENT ORGANIZATION IS PROVIDING WITH TOP-NOTCH AND
+            WORLD CLASS COURSES IN ALMOST EVERY FAMOUS FRAMEWORK THERE IS.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <img src="./assets/I4.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+
+      <!-- Line -->
+
+      <div class="row">
+        <div class="col-12">
+          <hr />
+        </div>
+      </div>
+
+      <!-- Services -->
+
+      <div class="row justify-content-center" id="services">
+        <div class="col-12 text-center">
+          <h1>OUR <span>SERVICES</span></h1>
+          <p>
+            OUR MEMBERSHIP COMES WITH A NUMBER OF DIRECT & INDIRECT SERVICES
+            THAT WILL HELP YOU GROW YOUR CAREER FASTER.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly" id="services-2">
+        <div class="col-lg-3 star">
+          <div class="star-div rounded-circle">
+            <i class="bi bi-star-fill star-icon"></i>
+          </div>
+          <div class="star-text rounded">
+            <h5 class="text-center">WEB DESIGN</h5>
+            <p class="text-center">
+              OUR THIS COURSE IS ONLINE NOW. REGISTER YOURSELF. HURRY UP !
+            </p>
+            <button type="button" class="btn serv-btn">READ MORE</button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 star">
+          <div class="star-div rounded-circle">
+            <i class="bi bi-star-fill star-icon"></i>
+          </div>
+          <div class="star-text rounded">
+            <h5 class="text-center">GRAPHIC DESIGN</h5>
+            <p class="text-center">
+              OUR THIS COURSE IS ONLINE NOW. REGISTER YOURSELF. HURRY UP !
+            </p>
+            <button type="button" class="btn serv-btn">READ MORE</button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 star">
+          <div class="star-div rounded-circle">
+            <i class="bi bi-star-fill star-icon"></i>
+          </div>
+          <div class="star-text rounded">
+            <h5 class="text-center">BRANDING</h5>
+            <p class="text-center">
+              OUR THIS COURSE IS ONLINE NOW. REGISTER YOURSELF. HURRY UP !
+            </p>
+            <button type="button" class="btn serv-btn">READ MORE</button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 star">
+          <div class="star-div rounded-circle">
+            <i class="bi bi-star-fill star-icon"></i>
+          </div>
+          <div class="star-text rounded">
+            <h5 class="text-center">MARKETING</h5>
+            <p class="text-center">
+              OUR THIS COURSE IS ONLINE NOW. REGISTER YOURSELF. HURRY UP !
+            </p>
+            <button type="button" class="btn serv-btn">READ MORE</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+
+      <div class="row justify-content-center" id="portfolio">
+        <div class="col-12 text-center">
+          <h1 class="text-white">OUR <span>PORTFOLIO</span></h1>
+          <p class="text-white">
+            WE COVER ALL THE MAJOR ARES OF INTEREST THAT YOU WILL NEED IN ORDER
+            TO GROW YOUR BUSINESS.
+          </p>
+        </div>
+        <div>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <div class="rounded-pill navi-port-div">
+                <a class="nav-link navi-port" href="#">WEB DESIGN</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="rounded-pill navi-port-div">
+                <a class="nav-link navi-port" href="#">GRAPHIC DESIGN</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="rounded-pill navi-port-div">
+                <a class="nav-link navi-port" href="#">BRANDING</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="rounded-pill navi-port-div">
+                <a class="nav-link navi-port" href="#">LOGO</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="rounded-pill navi-port-div">
+                <a class="nav-link navi-port" href="#">MARKETING</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="rounded-pill navi-port-div">
+                <a class="nav-link navi-port" href="#">ADVERTISEMENT</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="row justify-content-center" id="folio">
+          <div class="col-md-2 folio-img">
+            <img src="./assets/IDEA.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-2 folio-img">
+            <img src="./assets/SEO.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-2 folio-img">
+            <img src="./assets/LAPTOP.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-2 folio-img">
+            <img src="./assets/GRAPHIC DESIGN.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-2 folio-img">
+            <img
+              src="./assets/ARTIFICIAL INTELLIGENCE.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+
+        <div class="row justify-content-center" id="folio1">
+          <div class="col-md-2 folio-img">
+            <img src="./assets/MOBILE APP.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-2 folio-img">
+            <img src="./assets/DATA.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-2 folio-img">
+            <img src="./assets/LOGO1.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-2 folio-img">
+            <img src="./assets/ADVERTISEMENT.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-2 folio-img">
+            <img src="./assets/CODING.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Process  -->
+
+      <div class="row justify-content-center" id="process">
+        <div class="col-12 text-center">
+          <h1 class="">OUR <span>PROCESS</span></h1>
+          <p class="">
+            OUR PROCESS OF MANAGEMENT IS WORLD CLASS AND WILL HELP YOU ACHIEVE
+            YOUR GOALS WITH ACCURACY.
+          </p>
+        </div>
+      </div>
+
+      <div class="row" id="process-low">
+        <div class="col-lg-2 pro-main">
+          <div class="pro-num rounded-circle">1</div>
+          <div class="pro-round rounded-circle">
+            <img
+              src="./assets/PHONE.png"
+              alt=""
+              class="img-fluid"
+              style="width: 80px; height: 80px"
+            />
+          </div>
+          <div class="pro-text">
+            <h5 class="text-center">REQUEST CALL</h5>
+            <p class="text-center">
+              OUR THIS SERVICE IS AVAILABLE ALL THE TIME.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 pro-main">
+          <div class="pro-num rounded-circle">2</div>
+          <div class="pro-round rounded-circle">
+            <img
+              src="./assets/CHAT.png"
+              alt=""
+              class="img-fluid"
+              style="width: 80px; height: 80px"
+            />
+          </div>
+          <div class="pro-text">
+            <h5 class="text-center">CONSULTATION</h5>
+            <p class="text-center">
+              OUR THIS SERVICE IS AVAILABLE ALL THE TIME.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 pro-main">
+          <div class="pro-num rounded-circle">3</div>
+          <div class="pro-round rounded-circle">
+            <img
+              src="./assets/PLANNING.png"
+              alt=""
+              class="img-fluid"
+              style="width: 80px; height: 80px"
+            />
+          </div>
+          <div class="pro-text">
+            <h5 class="text-center">PLANNING</h5>
+            <p class="text-center">
+              OUR THIS SERVICE IS AVAILABLE ALL THE TIME.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 pro-main">
+          <div class="pro-num rounded-circle">4</div>
+          <div class="pro-round rounded-circle">
+            <img
+              src="./assets/SETTINGS.png"
+              alt=""
+              class="img-fluid"
+              style="width: 80px; height: 80px"
+            />
+          </div>
+          <div class="pro-text">
+            <h5 class="text-center">WORK PROCESS</h5>
+            <p class="text-center">
+              OUR THIS SERVICE IS AVAILABLE ALL THE TIME.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 pro-main">
+          <div class="pro-num rounded-circle">5</div>
+          <div class="pro-round rounded-circle">
+            <img
+              src="./assets/CRAYON.png"
+              alt=""
+              class="img-fluid"
+              style="width: 80px; height: 80px"
+            />
+          </div>
+          <div class="pro-text">
+            <h5 class="text-center">CORRECTING</h5>
+            <p class="text-center">
+              OUR THIS SERVICE IS AVAILABLE ALL THE TIME.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 pro-main">
+          <div class="pro-num rounded-circle">6</div>
+          <div class="pro-round rounded-circle">
+            <img
+              src="./assets/DELIVERY.png"
+              alt=""
+              class="img-fluid"
+              style="width: 80px; height: 80px"
+            />
+          </div>
+          <div class="pro-text">
+            <h5 class="text-center">DELIVER</h5>
+            <p class="text-center">
+              OUR THIS SERVICE IS AVAILABLE ALL THE TIME.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- People About US -->
+
+      <div class="row justify-content-center" id="people">
+        <div class="col-12 text-center">
+          <h1>PEOPLE <span>ABOUT US</span></h1>
+          <p>OUR MEMBERS HAVE SHARED THEIR EXPERIENCE WITH US. HAVE A LOOK!</p>
+        </div>
+
+        <div class="row justify-content-center p-below-t">
+          <div class="col-lg-5 p-below-1 border-top-0 border-start-0">
+            <div class="con-img rounded-circle">
+              <img
+                src="./assets/CONTACT.png"
+                alt=""
+                class="img-fluid ic"
+                style="width: 50px; height: 50px"
+              />
+            </div>
+            <div class="con-text">
+              <h6>AHMED ABBAS</h6>
+              <p>
+                I HAVE BEEN A MEMBER OF THIS ORGANIZATION SINCE 2020 & I HAVE
+                NEVER FACED ANY KIND OF COMPLICATIONS. I AM REALLY ENJOYING MY
+                TIME WITH THIS COMPANY.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-5 p-below-1 border-top-0 border-end-0">
+            <div class="con-img rounded-circle">
+              <img
+                src="./assets/CONTACT.png"
+                alt=""
+                class="img-fluid ic"
+                style="width: 50px; height: 50px"
+              />
+            </div>
+            <div class="con-text">
+              <h6>AHMED ABBAS</h6>
+              <p>
+                I HAVE BEEN A MEMBER OF THIS ORGANIZATION SINCE 2020 & I HAVE
+                NEVER FACED ANY KIND OF COMPLICATIONS. I AM REALLY ENJOYING MY
+                TIME WITH THIS COMPANY.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center p-below-b">
+          <div class="col-lg-5 p-below-1 border-bottom-0 border-start-0">
+            <div class="con-img rounded-circle">
+              <img
+                src="./assets/CONTACT.png"
+                alt=""
+                class="img-fluid ic"
+                style="width: 50px; height: 50px"
+              />
+            </div>
+            <div class="con-text">
+              <h6>AHMED ABBAS</h6>
+              <p>
+                I HAVE BEEN A MEMBER OF THIS ORGANIZATION SINCE 2020 & I HAVE
+                NEVER FACED ANY KIND OF COMPLICATIONS. I AM REALLY ENJOYING MY
+                TIME WITH THIS COMPANY.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-5 p-below-1 border-bottom-0 border-end-0">
+            <div class="con-img rounded-circle">
+              <img
+                src="./assets/CONTACT.png"
+                alt=""
+                class="img-fluid ic"
+                style="width: 50px; height: 50px"
+              />
+            </div>
+            <div class="con-text">
+              <h6>AHMED ABBAS</h6>
+              <p>
+                I HAVE BEEN A MEMBER OF THIS ORGANIZATION SINCE 2020 & I HAVE
+                NEVER FACED ANY KIND OF COMPLICATIONS. I AM REALLY ENJOYING MY
+                TIME WITH THIS COMPANY.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center" id="dots">
+          <div class="col-12 text-center">
+            <img
+              src="./assets/DOTS.png"
+              alt=""
+              style="width: 50px; height: 50px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+
+      <div class="row justify-content-center" id="skills">
+        <div class="col-12 text-center">
+          <h1>OUR <span>SKILLS</span></h1>
+          <p>WE HAVE A TEAM WHICH COVER EVERY MAJOR TECH SKILL WITH EASE.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center" id="skills-b">
+        <div class="col-md-3 s-img-text">
+          <div>
+            <img
+              src="50.png"
+              alt=""
+              class="img-fluid"
+              style="width: 200px"
+              height="200px"
+            />
+          </div>
+          <h5>CODING</h5>
+        </div>
+        <div class="col-md-3 s-img-text">
+          <div>
+            <img
+              src="25.png"
+              alt=""
+              class="img-fluid"
+              style="width: 200px"
+              height="200px"
+            />
+          </div>
+          <h5>SEO & ADS</h5>
+        </div>
+        <div class="col-md-3 s-img-text">
+          <div>
+            <img
+              src="75 G.png"
+              alt=""
+              class="img-fluid"
+              style="width: 200px"
+              height="200px"
+            />
+          </div>
+          <h5>BRANDING</h5>
+        </div>
+        <div class="col-md-3 s-img-text">
+          <div>
+            <img
+              src="75 B.png"
+              alt=""
+              class="img-fluid"
+              style="width: 200px"
+              height="200px"
+            />
+          </div>
+          <h5>WEB DESIGN</h5>
+        </div>
+      </div>
+
+      <!-- Project -->
+
+      <div class="row justify-content-center" id="project">
+        <div class="col-12 text-center">
+          <h1>START YOUR NEW PROJECT</h1>
+        </div>
+
+        <div class="row justify-content-center project-form">
+          <div class="col-md-3 main-form">
+            <form>
+              <input type="text" class="form-control" placeholder="YOUR NAME" />
+            </form>
+          </div>
+          <div class="col-md-3 main-form">
+            <form>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="YOUR EMAIL"
+              />
+            </form>
+          </div>
+          <div class="col-md-3 main-form">
+            <form>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="YOUR PHONE"
+              />
+            </form>
+          </div>
+          <div class="col-auto main-form">
+            <button type="submit" class="btn project-btn">SEND REQUEST</button>
+          </div>
+        </div>
+
+        <div class="row justify-content-center" id="ject-text">
+          <div class="col-12 text-center">
+            <p class="text-white">
+              WE WILL TRY TO RESPOND ASAP. YOU WILL BE NOTIFIED VIA EMAIL IN THE
+              NEXT 24 HOURS
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contacts -->
+
+      <div class="row justify-content-center" id="contact">
+        <div class="col-12 text-center">
+          <h1>OUR <span>CONTACTS</span></h1>
+          <p>
+            WE HAVE A VERY RESPONSIVE FRAMEWORK YOU CAN REACH US THROUGH ANY OF
+            THE GIVEN CREDENTIALS 24/7. YOU CAN ALSO VISIT US AT OUR OFFICE.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center" id="contact-1">
+        <div class="col-12 text-center location">
+          <div class="location-img">
+            <img
+              src="./assets/LOCATION.png"
+              class="img-fluid"
+              alt=""
+              style="width: 32px; height: 32px"
+            />
+          </div>
+          <div class="loc-text">
+            MILITARY DAIRY FACTORY NEAR UNDERPASS GT ROAD OKARA, PUNJAB
+            PAKISTAN.
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center" id="con-phone">
+        <div class="col-12 text-center con-reach">
+          <div>
+            <i class="bi bi-telephone-fill con-icon"></i>
+            <span class="me-3"> +1 (234) 567 8910 </span>
+          </div>
+          <div>
+            <i class="bi bi-telephone-fill con-icon"></i>
+            <span class="me-3"> +1 (234) 567 8910 </span>
+          </div>
+          <div>
+            <i class="bi bi-envelope-fill con-icon"></i>
+            <span class="me-3"> iahmedabbas7@gmail.com </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center" id="con-map">
+        <div class="col-12 text-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3426.9937708075568!2d73.40867821446341!3d30.802808989304367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922a6dbf5aebfb5%3A0x3c148b1cbf0f1442!2sMilitary%20Farm!5e0!3m2!1sen!2s!4v1659097335823!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+      <div class="row justify-content-evenly" id="footer">
+        <div class="col-md-3 foot-divs" id="foot-1">
+          <div class="img-div">
+            <img
+              src="./assets/LOGO.png"
+              alt=""
+              class="img-fluid"
+              style="width: 85px; height: 85px"
+            />
+          </div>
+          <div
+            style="font-size: 13px; font-weight: bold; color: white"
+            id="foot-1-txt-1"
+          >
+            OUR WEB DEVELOPMENT ORGANIZATION IS A CERTIFIED ONE AND IS RUN BY A
+            LARGE NUMBER OF PROFESSIONALS AROUND THE GLOBE. WE STARTED THIS
+            ORGANIZATION IN 2020 AND IS GOING FORWARD EVER SINCE.
+          </div>
+          <div
+            style="
+              font-size: 18px;
+              font-weight: bold;
+              padding-top: 45px;
+              color: white;
+            "
+            id="foot-1-txt-2"
+          >
+            © ALL RIGHTS RESERVED 2022.
+          </div>
+        </div>
+
+        <div
+          class="col-md-2 foot-divs border-top-0 border-start-0 border-bottom-0"
+          id="foot-2"
+        >
+          <div
+            style="font-weight: bold; color: white; padding-bottom: 22px"
+            class="foot-headings"
+          >
+            SERVICES
+          </div>
+          <div>
+            <div class="foot-a"><a href="#">WEB DEVELOPMENT</a></div>
+            <div class="foot-a"><a href="#">APP DEVELOPMENT</a></div>
+            <div class="foot-a"><a href="#">LOGO DESIGNING</a></div>
+            <div class="foot-a"><a href="#">GRAPHIC DESIGNING</a></div>
+            <div class="foot-a"><a href="#">MARKETING</a></div>
+            <div class="foot-a"><a href="#">BRANDING</a></div>
+            <div class="foot-a"><a href="#">MEMBERSHIP</a></div>
+          </div>
+        </div>
+        <div
+          class="col-md-2 foot-divs border-top-0 border-start-0 border-bottom-0"
+          id="foot-3"
+        >
+          <div
+            style="font-weight: bold; color: white; padding-bottom: 22px"
+            class="foot-headings"
+          >
+            SHORTCUTS
+          </div>
+          <div>
+            <div class="foot-a"><a href="#">HOME</a></div>
+            <div class="foot-a"><a href="#">ABOUT</a></div>
+            <div class="foot-a"><a href="#">SERVICE</a></div>
+            <div class="foot-a"><a href="#">CONTACT</a></div>
+            <div class="foot-a"><a href="#">PRIVACY</a></div>
+            <div class="foot-a"><a href="#">REVIEWS</a></div>
+            <div class="foot-a"><a href="#">UPDATES</a></div>
+          </div>
+        </div>
+        <div class="col-md-3" id="foot-4">
+          <div
+            style="font-weight: bold; color: white; padding-bottom: 22px"
+            class="foot-headings"
+          >
+            CONTACTS
+          </div>
+          <div class="foot-p-e">
+            <i class="bi bi-telephone-fill foot-icon"></i>&nbsp;&nbsp;<span
+              class="me-3"
+            >
+              +1 (234) 567 8910
+            </span>
+          </div>
+          <div class="foot-p-e">
+            <i class="bi bi-telephone-fill foot-icon"></i>&nbsp;&nbsp;<span
+              class="me-3"
+            >
+              +1 (234) 567 8910
+            </span>
+          </div>
+          <div class="foot-p-e">
+            <i class="bi bi-envelope-fill foot-icon"></i>&nbsp;&nbsp;<span
+              class="me-3"
+            >
+              iahmedabbas7@gmail.com
+            </span>
+          </div>
+          <div
+            style="
+              font-weight: bold;
+              color: white;
+              padding-bottom: 20px;
+              margin-top: 40px;
+            "
+            class="foot-headings"
+          >
+            FOLLOW US
+          </div>
+          <div>
+            <i
+              class="bi bi-facebook pe-2 text-white"
+              id="F"
+              style="font-size: 25px"
+            ></i>
+            <i
+              class="bi bi-instagram pe-2 text-white"
+              id="I"
+              style="font-size: 25px"
+            ></i>
+            <i
+              class="bi bi-twitter pe-2 text-white"
+              id="T"
+              style="font-size: 25px"
+            ></i>
+            <i
+              class="bi bi-youtube pe-2 text-white"
+              id="Y"
+              style="font-size: 25px"
+            ></i>
+            <i
+              class="bi bi-snapchat pe-2 text-white"
+              id="S"
+              style="font-size: 25px"
+            ></i>
+            <i
+              class="bi bi-twitch text-white"
+              id="W"
+              style="font-size: 25px"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Container-Fluid-End -->
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
